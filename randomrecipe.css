@@ -1,0 +1,47 @@
+
+body {
+    background: url('download (6).jpg') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+}
+
+#center-content {
+    display: grid; 
+    place-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+#main-heading {
+    margin-bottom: 20px;
+}
+#button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff5e62;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease;
+}
+
+#button:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+h1{
+    background-color:antiquewhite;
+}
+p {
+    background-color: rgb(247, 172, 197); /* Soft background for readability */
+    padding: 15px; /* Adds space inside the paragraph */
+    border-radius: 10px; /* Rounds the corners */
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    font-size: 16px; /* Adjust font size for better readability */
+    color: #333; /* Dark text for contrast */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    line-height: 1.6; /* Improves line spacing */
+    text-align: justify; /* Aligns text for a cleaner look */
+    margin: 10px 0; /* Adds spacing between paragraphs */
+    border: 1px solid #dce7f5; /* Light border for definition */
+}
+
+
